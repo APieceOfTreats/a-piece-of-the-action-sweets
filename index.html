@@ -1,52 +1,148 @@
 <!doctype html>
-<html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>A Piece of the Action Sweets | Santa Clarita</title>
 <meta name="description" content="Homemade Cinnamon Pieces, cookies, cakesicles and caramel apples. Fresh baking every Friday in Santa Clarita.">
 <link rel="stylesheet" href="styles.css">
-</head><body>
+</head>
+<body>
 <div class="top">Serving Santa Clarita • Fresh baking every Friday • Order by Wednesday 6 PM PT</div>
-<header><a href="#home"><img src="assets/logo.png" alt="A Piece of the Action Sweets"></a><button id="navBtn">☰</button>
-<nav id="nav"><a href="#menu">Menu</a><a href="#mix">Surprise Mix</a><a href="#order">Order</a><a href="#special">Special Orders</a><a href="#contact">Contact</a></nav></header>
+
+<header>
+  <a href="#home"><img src="assets/logo.png" alt="A Piece of the Action Sweets"></a>
+  <button id="navBtn" aria-label="Open menu">☰</button>
+  <nav id="nav">
+    <a href="#menu">Menu</a>
+    <a href="#mix">Surprise Mix</a>
+    <a href="#order">Order</a>
+    <a href="#special">Special Orders</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button class="cartButton" id="cartButton">Cart <span id="cartCount">0</span></button>
+</header>
+
 <main>
-<section class="hero" id="home"><div><p class="eyebrow">Homemade sweets • local orders only</p><h1>Grab your <span>piece of the action.</span></h1>
-<p>Cinnamon Pieces, gourmet cookies, cakesicles and caramel apples made fresh for Santa Clarita.</p>
-<div class="buttons"><a class="btn" href="#menu">See the Menu</a><a class="btn alt" href="#order">How to Order</a></div></div>
-<div class="heroCard"><h2>Friday is Sweet Day!</h2><p>We bake fresh every Friday.</p><strong>Order by Wednesday at 6:00 PM PT</strong><p>Orders after the cutoff move to the following Friday.</p></div></section>
-
-<section id="menu" class="section"><p class="eyebrow">The sweet lineup</p><h2>Menu</h2>
-<div class="group"><div class="groupHead"><h3>Cinnamon Pieces</h3><b>$7 each • 4 for $24.99</b></div>
-<div class="card"><h4>The Original Cinnamon Piece</h4><p>Soft, gooey cinnamon goodness with a sweet homemade finish.</p><div class="price">$7 <span>or Box of 4 $24.99</span></div></div></div>
-
-<div class="group"><div class="groupHead mint"><h3>The Cookie Lineup</h3><b>$5 each • 4 for $16.99</b></div><div class="grid">
-<div class="card"><h4>The OG Chocolate Chip</h4><p>Classic homemade chocolate chip cookie - soft, rich and loaded with chocolate.</p><div class="price">$5 <span>or Box of 4 $16.99</span></div></div>
-<div class="card"><h4>Signature Snickerdoodle</h4><p>A soft, buttery snickerdoodle rolled in cinnamon sugar.</p><div class="price">$5 <span>or Box of 4 $16.99</span></div></div>
-<div class="card"><h4>S'more of the Action</h4><p>Chocolate, marshmallow and graham cracker goodness in one loaded cookie.</p><div class="price">$5 <span>or Box of 4 $16.99</span></div></div></div></div>
-
-<div class="group"><div class="groupHead lav"><h3>Sweet Showstoppers - Cakesicles</h3><b>$4 each • 4 for $13.99</b></div><div class="grid">
-<div class="card"><h4>Strawberry Cakesicle</h4><p>Strawberry cake dipped and decorated for a sweet, playful finish.</p><div class="price">$4 <span>or Box of 4 $13.99</span></div></div>
-<div class="card"><h4>Confetti Cakesicle</h4><p>A celebration-ready cakesicle with colorful confetti cake inside.</p><div class="price">$4 <span>or Box of 4 $13.99</span></div></div>
-<div class="card"><h4>Cosmic Chocolate Cakesicle</h4><p>Rich chocolate cake with a fun cosmic-inspired finish.</p><div class="price">$4 <span>or Box of 4 $13.99</span></div></div></div></div>
-
-<div class="group"><div class="groupHead pink"><h3>Caramel Apples</h3><b>$7 each • 4 for $24.99</b></div>
-<div class="card"><h4>Classic Caramel Apple Crunch</h4><p>A crisp apple coated in caramel, mixed with white chocolate and finished with cookie crumbs.</p><div class="price">$7 <span>or Box of 4 $24.99</span></div></div></div>
+<section class="hero" id="home">
+  <div>
+    <p class="eyebrow">Homemade sweets • local orders only</p>
+    <h1>Grab your <span>piece of the action.</span></h1>
+    <p>Cinnamon Pieces, gourmet cookies, cakesicles and caramel apples made fresh for Santa Clarita.</p>
+    <div class="buttons">
+      <a class="btn" href="#menu">Order Treats</a>
+      <a class="btn alt" href="#order">How Ordering Works</a>
+    </div>
+  </div>
+  <div class="heroCard">
+    <h2>Friday is Sweet Day!</h2>
+    <p>We bake fresh every Friday.</p>
+    <strong>Order by Wednesday at 6:00 PM PT</strong>
+    <p>Orders after the cutoff move to the following Friday.</p>
+  </div>
 </section>
 
-<section id="mix" class="mix"><p class="eyebrow">Feeling adventurous?</p><h2>Surprise Me! Box</h2>
-<p>Can't decide? Let us pick! Your box will include a surprise mix of available flavors from your selected treat category. Every box is a little different - that's part of the action.</p>
-<p class="note"><b>Cookie Surprise Mix:</b> $16.99 • <b>Cakesicle Surprise Mix:</b> $13.99</p></section>
+<section id="menu" class="section">
+  <p class="eyebrow">The sweet lineup</p>
+  <h2>Menu</h2>
 
-<section id="order" class="section order"><p class="eyebrow">Local ordering</p><h2>How ordering works</h2>
-<div class="steps"><div><b>1</b><h3>Choose your treats</h3><p>Pick singles, a value box of four, or a Surprise Me! Box.</p></div>
-<div><b>2</b><h3>Order by Wednesday</h3><p>Orders must be received by Wednesday at 6:00 PM PT.</p></div>
-<div><b>3</b><h3>Fresh Friday bake</h3><p>We bake every Friday for our Santa Clarita customers.</p></div></div>
-<p class="center"><strong>Square checkout is the next connection.</strong></p></section>
+  <div class="group">
+    <div class="groupHead"><h3>Cinnamon Pieces</h3><b>$7 each • 4 for $24.99</b></div>
+    <div class="card">
+      <h4>The Original Cinnamon Piece</h4>
+      <p>Soft, gooey cinnamon goodness with a sweet homemade finish.</p>
+      <div class="buyOptions">
+        <button class="add" data-sku="cinnamon-single">1 Piece <strong>$7</strong></button>
+        <button class="add best" data-sku="cinnamon-box4">Box of 4 <strong>$24.99</strong><small>BEST VALUE</small></button>
+      </div>
+    </div>
+  </div>
 
-<section id="special" class="special"><div><p class="eyebrow">Something special?</p><h2>Special Orders</h2><p>Celebrations, gifts, party favors or a sweet idea? Tell us what you have in mind.</p>
-<a class="btn" href="mailto:orders@apiecetreats.com?subject=Special%20Order%20Request">Email a Special Order</a></div>
-<div class="contactBox"><b>Orders & questions</b><a href="tel:+16612373507">661-237-3507</a><a href="mailto:orders@apiecetreats.com">orders@apiecetreats.com</a><a href="https://www.apiecetreats.com">www.apiecetreats.com</a></div></section>
+  <div class="group">
+    <div class="groupHead mint"><h3>The Cookie Lineup</h3><b>$5 each • 4 for $16.99</b></div>
+    <div class="grid">
+      <div class="card"><h4>The OG Chocolate Chip</h4><p>Classic homemade chocolate chip cookie - soft, rich and loaded with chocolate.</p>
+        <div class="buyOptions"><button class="add" data-sku="og-cookie-single">1 Cookie <strong>$5</strong></button><button class="add best" data-sku="og-cookie-box4">Box of 4 <strong>$16.99</strong><small>BEST VALUE</small></button></div>
+      </div>
+      <div class="card"><h4>Signature Snickerdoodle</h4><p>A soft, buttery snickerdoodle rolled in cinnamon sugar.</p>
+        <div class="buyOptions"><button class="add" data-sku="snickerdoodle-single">1 Cookie <strong>$5</strong></button><button class="add best" data-sku="snickerdoodle-box4">Box of 4 <strong>$16.99</strong><small>BEST VALUE</small></button></div>
+      </div>
+      <div class="card"><h4>S'more of the Action</h4><p>Chocolate, marshmallow and graham cracker goodness in one loaded cookie.</p>
+        <div class="buyOptions"><button class="add" data-sku="smore-single">1 Cookie <strong>$5</strong></button><button class="add best" data-sku="smore-box4">Box of 4 <strong>$16.99</strong><small>BEST VALUE</small></button></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="group">
+    <div class="groupHead lav"><h3>Sweet Showstoppers - Cakesicles</h3><b>$4 each • 4 for $13.99</b></div>
+    <div class="grid">
+      <div class="card"><h4>Strawberry Cakesicle</h4><p>Strawberry cake dipped and decorated for a sweet, playful finish.</p>
+        <div class="buyOptions"><button class="add" data-sku="strawberry-single">1 Cakesicle <strong>$4</strong></button><button class="add best" data-sku="strawberry-box4">Box of 4 <strong>$13.99</strong><small>BEST VALUE</small></button></div>
+      </div>
+      <div class="card"><h4>Confetti Cakesicle</h4><p>A celebration-ready cakesicle with colorful confetti cake inside.</p>
+        <div class="buyOptions"><button class="add" data-sku="confetti-single">1 Cakesicle <strong>$4</strong></button><button class="add best" data-sku="confetti-box4">Box of 4 <strong>$13.99</strong><small>BEST VALUE</small></button></div>
+      </div>
+      <div class="card"><h4>Cosmic Chocolate Cakesicle</h4><p>Rich chocolate cake with a fun cosmic-inspired finish.</p>
+        <div class="buyOptions"><button class="add" data-sku="cosmic-single">1 Cakesicle <strong>$4</strong></button><button class="add best" data-sku="cosmic-box4">Box of 4 <strong>$13.99</strong><small>BEST VALUE</small></button></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="group">
+    <div class="groupHead pink"><h3>Caramel Apples</h3><b>$7 each • 4 for $24.99</b></div>
+    <div class="card"><h4>Classic Caramel Apple Crunch</h4><p>A crisp apple coated in caramel, mixed with white chocolate and finished with cookie crumbs.</p>
+      <div class="buyOptions"><button class="add" data-sku="apple-single">1 Apple <strong>$7</strong></button><button class="add best" data-sku="apple-box4">Box of 4 <strong>$24.99</strong><small>BEST VALUE</small></button></div>
+    </div>
+  </div>
+</section>
+
+<section id="mix" class="mix">
+  <p class="eyebrow">Feeling adventurous?</p>
+  <h2>Surprise Me! Box</h2>
+  <p>Can't decide? Let us pick! Your box will include a surprise mix of available flavors from your selected treat category. Every box is a little different - that's part of the action.</p>
+  <div class="mixButtons">
+    <button class="add btn" data-sku="cookie-surprise-box4">Cookie Surprise Mix • $16.99</button>
+    <button class="add btn" data-sku="cakesicle-surprise-box4">Cakesicle Surprise Mix • $13.99</button>
+  </div>
+</section>
+
+<section id="order" class="section order">
+  <p class="eyebrow">Local ordering</p><h2>How ordering works</h2>
+  <div class="steps">
+    <div><b>1</b><h3>Choose your treats</h3><p>Add singles, boxes of four, or a Surprise Me! Box to your cart.</p></div>
+    <div><b>2</b><h3>Order by Wednesday</h3><p>Orders must be received by Wednesday at 6:00 PM PT.</p></div>
+    <div><b>3</b><h3>Pay securely with Square</h3><p>Checkout opens on Square's secure hosted payment page.</p></div>
+  </div>
+</section>
+
+<section id="special" class="special">
+  <div><p class="eyebrow">Something special?</p><h2>Special Orders</h2><p>Celebrations, gifts, party favors or a sweet idea? Tell us what you have in mind.</p>
+    <a class="btn" href="mailto:orders@apiecetreats.com?subject=Special%20Order%20Request">Email a Special Order</a>
+  </div>
+  <div class="contactBox">
+    <b>Orders & questions</b>
+    <a href="tel:+16612373507">661-237-3507</a>
+    <a href="mailto:orders@apiecetreats.com">orders@apiecetreats.com</a>
+    <a href="https://www.apiecetreats.com">www.apiecetreats.com</a>
+  </div>
+</section>
 
 <section id="contact" class="allergy"><b>Allergen notice:</b> Products may contain or come into contact with milk, eggs, wheat, soy, peanuts, and tree nuts.</section>
 </main>
+
 <footer><img src="assets/logo.png" alt=""><p>Life is sweeter when we all get a piece of the action. ♥</p><p>Serving Santa Clarita • Local orders only</p></footer>
-<script src="script.js"></script></body></html>
+
+<div id="cartOverlay" class="cartOverlay" hidden></div>
+<aside id="cartDrawer" class="cartDrawer" aria-label="Shopping cart" aria-hidden="true">
+  <div class="cartHeader"><h2>Your Order</h2><button id="closeCart" aria-label="Close cart">×</button></div>
+  <div id="cartItems"></div>
+  <div id="cartEmpty" class="cartEmpty">Your cart is waiting for something sweet.</div>
+  <div class="cartTotal"><span>Total</span><strong id="cartTotal">$0.00</strong></div>
+  <button id="checkoutBtn" class="checkoutBtn" disabled>Checkout securely with Square</button>
+  <p class="cartNote">Fresh baking every Friday. Order by Wednesday at 6:00 PM PT.</p>
+</aside>
+
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script src="script.js"></script>
+</body>
+</html>
