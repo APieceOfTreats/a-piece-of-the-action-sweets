@@ -1,24 +1,631 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>A Piece of the Action Sweets</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700;800&family=Pacifico&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css"></head><body>
-<div class="bar">HOMEMADE SWEETS • LOCAL ORDERS ONLY • BOX DEALS AVAILABLE</div>
-<header><img src="assets/logo.png" class="logo"><nav><a href="#menu">Menu</a><a href="#order">Order Online</a><a href="#special">Special Orders</a><a href="#recipes">Recipes</a><a href="#about">About</a></nav><a class="btn" href="#order">Get a Piece of the Action</a></header>
-<section class="hero"><div><p class="eyebrow">HOMEMADE HAPPINESS, ONE BITE AT A TIME</p><h1>Grab your <span>piece of the action.</span></h1><p class="lead">Cinnamon Pieces, gourmet cookies, cakesicles and caramel apples made from scratch for celebrations, cravings and everything in between.</p><div class="row"><a class="btn" href="#menu">Shop the Menu</a><a class="btn ghost" href="#order">Order Local</a></div><p><b>♡ Local pickup & delivery • Made to order</b></p></div><div class="deal"><div class="tag">BOX DEALS</div><p class="eyebrow">MOST POPULAR WAY TO ORDER</p><h2>Grab 4 & Save</h2><p>Build a box of your favorites and get more of the action for less.</p><div class="pills"><span>Cinnamon Pieces</span><span>Cookies</span><span>Cakesicles</span></div><p class="script">Made with love ♡</p></div></section>
-<section class="strip"><b>Sweet treats for every occasion</b><span>Birthdays</span><span>♥</span><span>Holidays</span><span>♥</span><span>Parties</span><span>♥</span><span>Gifts</span><span>♥</span><span>Just because</span></section>
-<section id="menu" class="section"><div class="center"><p class="eyebrow">FRESH FROM THE KITCHEN</p><h2>The Sweet Lineup</h2><p>Choose a single treat or make it a box. Four-packs are highlighted as the best value.</p></div>
-<div class="cat"><div class="cathead"><div><p class="eyebrow">SIGNATURE FAVORITE</p><h3>Cinnamon Pieces</h3></div><b>$7 each • 4 for $24.99</b></div><div class="grid one"><article><div class="pic c">🥮</div><div class="body"><span class="badge">SIGNATURE</span><h4>The Original Cinnamon Piece</h4><p>Soft, gooey cinnamon goodness with a sweet homemade finish.</p><div class="choices"><button data-name="The Original Cinnamon Piece" data-price="7">1 Piece <strong>$7</strong></button><button class="best" data-name="The Original Cinnamon Piece — Box of 4" data-price="24.99">4 Pieces <strong>$24.99</strong><small>BEST VALUE • SAVE $3.01</small></button></div></div></article></div></div>
-<div class="cat"><div class="cathead"><div><p class="eyebrow">THE COOKIE LINEUP</p><h3>Cookies</h3></div><b>$5 each • 4 for $16.99</b></div><div class="grid">
-<article><div class="pic cookie">🍪</div><div class="body"><h4>The OG Chocolate Chip</h4><p>Our classic homemade chocolate chip cookie: soft, rich and loaded with chocolate.</p><div class="choices"><button data-name="The OG Chocolate Chip" data-price="5">1 Cookie <strong>$5</strong></button><button class="best" data-name="The OG Chocolate Chip — Box of 4" data-price="16.99">4 Cookies <strong>$16.99</strong><small>BEST VALUE • SAVE $3.01</small></button></div></div></article>
-<article><div class="pic snick">🍪</div><div class="body"><h4>Signature Snickerdoodle</h4><p>A soft, buttery snickerdoodle rolled in cinnamon sugar.</p><div class="choices"><button data-name="Signature Snickerdoodle" data-price="5">1 Cookie <strong>$5</strong></button><button class="best" data-name="Signature Snickerdoodle — Box of 4" data-price="16.99">4 Cookies <strong>$16.99</strong><small>BEST VALUE • SAVE $3.01</small></button></div></div></article>
-<article><div class="pic smore">🍪</div><div class="body"><h4>S’more of the Action</h4><p>Chocolate, marshmallow and graham cracker goodness in one loaded cookie.</p><div class="choices"><button data-name="S’more of the Action" data-price="5">1 Cookie <strong>$5</strong></button><button class="best" data-name="S’more of the Action — Box of 4" data-price="16.99">4 Cookies <strong>$16.99</strong><small>BEST VALUE • SAVE $3.01</small></button></div></div></article>
-</div></div>
-<div class="cat"><div class="cathead"><div><p class="eyebrow">SWEET SHOWSTOPPERS</p><h3>Cakesicles</h3></div><b>$4 each • 4 for $13.99</b></div><div class="grid">
-<article><div class="pic straw">🍓</div><div class="body"><h4>Strawberry Cakesicle</h4><p>Strawberry cake dipped and decorated for a sweet, playful finish.</p><div class="choices"><button data-name="Strawberry Cakesicle" data-price="4">1 Cakesicle <strong>$4</strong></button><button class="best" data-name="Strawberry Cakesicle — Box of 4" data-price="13.99">4 Cakesicles <strong>$13.99</strong><small>BEST VALUE • SAVE $2.01</small></button></div></div></article>
-<article><div class="pic conf">🎉</div><div class="body"><h4>Confetti Cakesicle</h4><p>A celebration-ready cakesicle with colorful confetti cake inside.</p><div class="choices"><button data-name="Confetti Cakesicle" data-price="4">1 Cakesicle <strong>$4</strong></button><button class="best" data-name="Confetti Cakesicle — Box of 4" data-price="13.99">4 Cakesicles <strong>$13.99</strong><small>BEST VALUE • SAVE $2.01</small></button></div></div></article>
-<article><div class="pic cosmic">🌌</div><div class="body"><h4>Cosmic Chocolate Cakesicle</h4><p>Rich chocolate cake with a fun cosmic-inspired finish.</p><div class="choices"><button data-name="Cosmic Chocolate Cakesicle" data-price="4">1 Cakesicle <strong>$4</strong></button><button class="best" data-name="Cosmic Chocolate Cakesicle — Box of 4" data-price="13.99">4 Cakesicles <strong>$13.99</strong><small>BEST VALUE • SAVE $2.01</small></button></div></div></article>
-</div></div>
-<div class="cat"><div class="cathead"><div><p class="eyebrow">CLASSIC WITH A TWIST</p><h3>Caramel Apples</h3></div><b>$4 each • 4 for $24.99</b></div><div class="grid one"><article><div class="pic apple">🍎</div><div class="body"><h4>Classic Caramel Apple Crunch</h4><p>A crisp apple coated in caramel, mixed with white chocolate and finished with cookie crumbs.</p><div class="soon">Pricing will be added before launch.</div></div></article></div></div>
-</section>
-<section id="order" class="order section"><div class="center"><p class="eyebrow">LOCAL ORDERING</p><h2>Your order</h2><p>Add items from the menu above. V2 includes a working cart so checkout can be connected next.</p></div><div class="cartwrap"><div class="cart"><div id="empty">Your cart is waiting for something sweet.</div><div id="items"></div><div class="total"><span>Estimated total</span><strong id="total">$0.00</strong></div><button class="btn full" disabled id="checkout">Checkout connection coming next</button></div><aside><span class="badge">SMART SWEET DEAL</span><h3>Boxes are built to move.</h3><p>Your four-packs are intentionally featured because they feel like a clear deal while keeping your premium single-item price intact.</p><ul><li>Cinnamon Pieces: save $3.01</li><li>Cookies: save $3.01</li><li>Cakesicles: save $2.01</li></ul></aside></div></section>
-<section id="special" class="special"><div><p class="eyebrow">NEED SOMETHING SPECIAL?</p><h2>Special orders for memorable moments</h2><p>Tell us what you’re celebrating, how many treats you need and the look you have in mind.</p><a class="btn" href="mailto:orders@apiecetreats.com?subject=Special%20Order%20Request">Start a Special Order</a></div><div class="featurelist"><div>♥ Birthdays & celebrations</div><div>♥ Gift boxes & party favors</div><div>♥ Corporate & thank-you gifts</div><div>♥ Seasonal specials</div></div></section>
-<section id="recipes" class="recipes"><div><p class="eyebrow">FROM OUR KITCHEN TO YOURS</p><h2>The Recipe Corner</h2><p>Tips, inspiration and favorite recipes for anyone who wants a little more sweetness at home.</p><b>Recipes coming soon →</b></div><div class="recipeart">🥣 + 🍪 = ♡</div></section>
-<section id="about" class="section"><div class="center"><p class="eyebrow">WHY WE BAKE</p><h2>Made with care. Made to share.</h2></div><div class="values"><div><span>♥</span><h3>Made with Love</h3><p>Thoughtful recipes and handcrafted details in every bite.</p></div><div><span>♨</span><h3>Quality Ingredients</h3><p>Good treats start with good ingredients.</p></div><div><span>🎁</span><h3>Made for Every Moment</h3><p>Big celebrations or small moments—we’ve got you.</p></div><div><span>☺</span><h3>Local & Personal</h3><p>Fresh sweets made for our local community.</p></div></div></section>
-<footer><img src="assets/logo.png" class="flogo"><p class="script">Life is sweeter when we all get a piece of the action. ♥</p><p>© <span id="year"></span> A Piece of the Action Sweets • Local orders only</p></footer><div id="toast"></div><script src="script.js"></script></body></html>
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   A Piece of the Action Sweets
+  </title>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700;800&amp;family=Pacifico&amp;family=Playfair+Display:wght@700;800&amp;display=swap" rel="stylesheet"/>
+  <link href="styles.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <div class="bar">
+   HOMEMADE SWEETS • LOCAL ORDERS ONLY • BOX DEALS AVAILABLE
+  </div>
+  <header>
+   <img class="logo" src="assets/logo.png"/>
+   <nav>
+    <a href="#menu">
+     Menu
+    </a>
+    <a href="#order">
+     Order Online
+    </a>
+    <a href="#special">
+     Special Orders
+    </a>
+    <a href="#recipes">
+     Recipes
+    </a>
+    <a href="#about">
+     About
+    </a>
+   </nav>
+   <a class="btn" href="#order">
+    Get a Piece of the Action
+   </a>
+  </header>
+  <section class="hero">
+   <div>
+    <p class="eyebrow">
+     HOMEMADE HAPPINESS, ONE BITE AT A TIME
+    </p>
+    <h1>
+     Grab your
+     <span>
+      piece of the action.
+     </span>
+    </h1>
+    <p class="lead">
+     Cinnamon Pieces, gourmet cookies, cakesicles and caramel apples made from scratch for celebrations, cravings and everything in between.
+    </p>
+    <div class="row">
+     <a class="btn" href="#menu">
+      Shop the Menu
+     </a>
+     <a class="btn ghost" href="#order">
+      Order Local
+     </a>
+    </div>
+    <p>
+     <b>
+      ♡ Local pickup &amp; delivery • Made to order
+     </b>
+    </p>
+   </div>
+   <div class="deal">
+    <div class="tag">
+     BOX DEALS
+    </div>
+    <p class="eyebrow">
+     MOST POPULAR WAY TO ORDER
+    </p>
+    <h2>
+     Grab 4 &amp; Save
+    </h2>
+    <p>
+     Build a box of your favorites and get more of the action for less.
+    </p>
+    <div class="pills">
+     <span>
+      Cinnamon Pieces
+     </span>
+     <span>
+      Cookies
+     </span>
+     <span>
+      Cakesicles
+     </span>
+    </div>
+    <p class="script">
+     Made with love ♡
+    </p>
+   </div>
+  </section>
+  <section class="strip">
+   <b>
+    Sweet treats for every occasion
+   </b>
+   <span>
+    Birthdays
+   </span>
+   <span>
+    ♥
+   </span>
+   <span>
+    Holidays
+   </span>
+   <span>
+    ♥
+   </span>
+   <span>
+    Parties
+   </span>
+   <span>
+    ♥
+   </span>
+   <span>
+    Gifts
+   </span>
+   <span>
+    ♥
+   </span>
+   <span>
+    Just because
+   </span>
+  </section>
+  <section class="section" id="menu">
+   <div class="center">
+    <p class="eyebrow">
+     FRESH FROM THE KITCHEN
+    </p>
+    <h2>
+     The Sweet Lineup
+    </h2>
+    <p>
+     Choose a single treat or make it a box. Four-packs are highlighted as the best value.
+    </p>
+   </div>
+   <div class="cat">
+    <div class="cathead">
+     <div>
+      <p class="eyebrow">
+       SIGNATURE FAVORITE
+      </p>
+      <h3>
+       Cinnamon Pieces
+      </h3>
+     </div>
+     <b>
+      $7 each • 4 for $24.99
+     </b>
+    </div>
+    <div class="grid one">
+     <article>
+      <div class="pic c">
+       🥮
+      </div>
+      <div class="body">
+       <span class="badge">
+        SIGNATURE
+       </span>
+       <h4>
+        The Original Cinnamon Piece
+       </h4>
+       <p>
+        Soft, gooey cinnamon goodness with a sweet homemade finish.
+       </p>
+       <div class="choices">
+        <button data-name="The Original Cinnamon Piece" data-price="7">
+         1 Piece
+         <strong>
+          $7
+         </strong>
+        </button>
+        <button class="best" data-name="The Original Cinnamon Piece — Box of 4" data-price="24.99">
+         4 Pieces
+         <strong>
+          $24.99
+         </strong>
+         <small>
+          BEST VALUE • SAVE $3.01
+         </small>
+        </button>
+       </div>
+      </div>
+     </article>
+    </div>
+   </div>
+   <div class="cat">
+    <div class="cathead">
+     <div>
+      <p class="eyebrow">
+       THE COOKIE LINEUP
+      </p>
+      <h3>
+       Cookies
+      </h3>
+     </div>
+     <b>
+      $5 each • 4 for $16.99
+     </b>
+    </div>
+    <div class="grid">
+     <article>
+      <div class="pic cookie">
+       🍪
+      </div>
+      <div class="body">
+       <h4>
+        The OG Chocolate Chip
+       </h4>
+       <p>
+        Our classic homemade chocolate chip cookie: soft, rich and loaded with chocolate.
+       </p>
+       <div class="choices">
+        <button data-name="The OG Chocolate Chip" data-price="5">
+         1 Cookie
+         <strong>
+          $5
+         </strong>
+        </button>
+        <button class="best" data-name="The OG Chocolate Chip — Box of 4" data-price="16.99">
+         4 Cookies
+         <strong>
+          $16.99
+         </strong>
+         <small>
+          BEST VALUE • SAVE $3.01
+         </small>
+        </button>
+       </div>
+      </div>
+     </article>
+     <article>
+      <div class="pic snick">
+       🍪
+      </div>
+      <div class="body">
+       <h4>
+        Signature Snickerdoodle
+       </h4>
+       <p>
+        A soft, buttery snickerdoodle rolled in cinnamon sugar.
+       </p>
+       <div class="choices">
+        <button data-name="Signature Snickerdoodle" data-price="5">
+         1 Cookie
+         <strong>
+          $5
+         </strong>
+        </button>
+        <button class="best" data-name="Signature Snickerdoodle — Box of 4" data-price="16.99">
+         4 Cookies
+         <strong>
+          $16.99
+         </strong>
+         <small>
+          BEST VALUE • SAVE $3.01
+         </small>
+        </button>
+       </div>
+      </div>
+     </article>
+     <article>
+      <div class="pic smore">
+       🍪
+      </div>
+      <div class="body">
+       <h4>
+        S’more of the Action
+       </h4>
+       <p>
+        Chocolate, marshmallow and graham cracker goodness in one loaded cookie.
+       </p>
+       <div class="choices">
+        <button data-name="S’more of the Action" data-price="5">
+         1 Cookie
+         <strong>
+          $5
+         </strong>
+        </button>
+        <button class="best" data-name="S’more of the Action — Box of 4" data-price="16.99">
+         4 Cookies
+         <strong>
+          $16.99
+         </strong>
+         <small>
+          BEST VALUE • SAVE $3.01
+         </small>
+        </button>
+       </div>
+      </div>
+     </article>
+    </div>
+   </div>
+   <div class="cat">
+    <div class="cathead">
+     <div>
+      <p class="eyebrow">
+       SWEET SHOWSTOPPERS
+      </p>
+      <h3>
+       Cakesicles
+      </h3>
+     </div>
+     <b>
+      $4 each • 4 for $13.99
+     </b>
+    </div>
+    <div class="grid">
+     <article>
+      <div class="pic straw">
+       🍓
+      </div>
+      <div class="body">
+       <h4>
+        Strawberry Cakesicle
+       </h4>
+       <p>
+        Strawberry cake dipped and decorated for a sweet, playful finish.
+       </p>
+       <div class="choices">
+        <button data-name="Strawberry Cakesicle" data-price="4">
+         1 Cakesicle
+         <strong>
+          $4
+         </strong>
+        </button>
+        <button class="best" data-name="Strawberry Cakesicle — Box of 4" data-price="13.99">
+         4 Cakesicles
+         <strong>
+          $13.99
+         </strong>
+         <small>
+          BEST VALUE • SAVE $2.01
+         </small>
+        </button>
+       </div>
+      </div>
+     </article>
+     <article>
+      <div class="pic conf">
+       🎉
+      </div>
+      <div class="body">
+       <h4>
+        Confetti Cakesicle
+       </h4>
+       <p>
+        A celebration-ready cakesicle with colorful confetti cake inside.
+       </p>
+       <div class="choices">
+        <button data-name="Confetti Cakesicle" data-price="4">
+         1 Cakesicle
+         <strong>
+          $4
+         </strong>
+        </button>
+        <button class="best" data-name="Confetti Cakesicle — Box of 4" data-price="13.99">
+         4 Cakesicles
+         <strong>
+          $13.99
+         </strong>
+         <small>
+          BEST VALUE • SAVE $2.01
+         </small>
+        </button>
+       </div>
+      </div>
+     </article>
+     <article>
+      <div class="pic cosmic">
+       🌌
+      </div>
+      <div class="body">
+       <h4>
+        Cosmic Chocolate Cakesicle
+       </h4>
+       <p>
+        Rich chocolate cake with a fun cosmic-inspired finish.
+       </p>
+       <div class="choices">
+        <button data-name="Cosmic Chocolate Cakesicle" data-price="4">
+         1 Cakesicle
+         <strong>
+          $4
+         </strong>
+        </button>
+        <button class="best" data-name="Cosmic Chocolate Cakesicle — Box of 4" data-price="13.99">
+         4 Cakesicles
+         <strong>
+          $13.99
+         </strong>
+         <small>
+          BEST VALUE • SAVE $2.01
+         </small>
+        </button>
+       </div>
+      </div>
+     </article>
+    </div>
+   </div>
+   <div class="cat">
+    <div class="cathead">
+     <div>
+      <p class="eyebrow">
+       CLASSIC WITH A TWIST
+      </p>
+      <h3>
+       Caramel Apples
+      </h3>
+     </div>
+     <b>
+      $7 each • 4 for $24.99
+     </b>
+    </div>
+    <div class="grid one">
+     <article>
+      <div class="pic apple">
+       🍎
+      </div>
+      <div class="body">
+       <h4>
+        Classic Caramel Apple Crunch
+       </h4>
+       <p>
+        A crisp apple coated in caramel, mixed with white chocolate and finished with cookie crumbs.
+       </p>
+       <div class="choices">
+        <button data-name="Classic Caramel Apple Crunch" data-price="7">
+         1 Apple
+         <strong>
+          $7
+         </strong>
+        </button>
+        <button class="best" data-name="Classic Caramel Apple Crunch — Box of 4" data-price="24.99">
+         4 Apples
+         <strong>
+          $24.99
+         </strong>
+         <small>
+          BEST VALUE • SAVE $3.01
+         </small>
+        </button>
+       </div>
+      </div>
+     </article>
+    </div>
+   </div>
+  </section>
+  <section class="order section" id="order">
+   <div class="center">
+    <p class="eyebrow">
+     LOCAL ORDERING
+    </p>
+    <h2>
+     Your order
+    </h2>
+    <p>
+     Add items from the menu above. V2 includes a working cart so checkout can be connected next.
+    </p>
+   </div>
+   <div class="cartwrap">
+    <div class="cart">
+     <div id="empty">
+      Your cart is waiting for something sweet.
+     </div>
+     <div id="items">
+     </div>
+     <div class="total">
+      <span>
+       Estimated total
+      </span>
+      <strong id="total">
+       $0.00
+      </strong>
+     </div>
+     <button class="btn full" disabled="" id="checkout">
+      Checkout connection coming next
+     </button>
+    </div>
+    <aside>
+     <span class="badge">
+      SMART SWEET DEAL
+     </span>
+     <h3>
+      Boxes are built to move.
+     </h3>
+     <p>
+      Your four-packs are intentionally featured because they feel like a clear deal while keeping your premium single-item price intact.
+     </p>
+     <ul>
+      <li>
+       Cinnamon Pieces: save $3.01
+      </li>
+      <li>
+       Cookies: save $3.01
+      </li>
+      <li>
+       Cakesicles: save $2.01
+      </li>
+     </ul>
+    </aside>
+   </div>
+  </section>
+  <section class="special" id="special">
+   <div>
+    <p class="eyebrow">
+     NEED SOMETHING SPECIAL?
+    </p>
+    <h2>
+     Special orders for memorable moments
+    </h2>
+    <p>
+     Tell us what you’re celebrating, how many treats you need and the look you have in mind.
+    </p>
+    <a class="btn" href="mailto:orders@apiecetreats.com?subject=Special%20Order%20Request">
+     Start a Special Order
+    </a>
+   </div>
+   <div class="featurelist">
+    <div>
+     ♥ Birthdays &amp; celebrations
+    </div>
+    <div>
+     ♥ Gift boxes &amp; party favors
+    </div>
+    <div>
+     ♥ Corporate &amp; thank-you gifts
+    </div>
+    <div>
+     ♥ Seasonal specials
+    </div>
+   </div>
+  </section>
+  <section class="recipes" id="recipes">
+   <div>
+    <p class="eyebrow">
+     FROM OUR KITCHEN TO YOURS
+    </p>
+    <h2>
+     The Recipe Corner
+    </h2>
+    <p>
+     Tips, inspiration and favorite recipes for anyone who wants a little more sweetness at home.
+    </p>
+    <b>
+     Recipes coming soon →
+    </b>
+   </div>
+   <div class="recipeart">
+    🥣 + 🍪 = ♡
+   </div>
+  </section>
+  <section class="section" id="about">
+   <div class="center">
+    <p class="eyebrow">
+     WHY WE BAKE
+    </p>
+    <h2>
+     Made with care. Made to share.
+    </h2>
+   </div>
+   <div class="values">
+    <div>
+     <span>
+      ♥
+     </span>
+     <h3>
+      Made with Love
+     </h3>
+     <p>
+      Thoughtful recipes and handcrafted details in every bite.
+     </p>
+    </div>
+    <div>
+     <span>
+      ♨
+     </span>
+     <h3>
+      Quality Ingredients
+     </h3>
+     <p>
+      Good treats start with good ingredients.
+     </p>
+    </div>
+    <div>
+     <span>
+      🎁
+     </span>
+     <h3>
+      Made for Every Moment
+     </h3>
+     <p>
+      Big celebrations or small moments—we’ve got you.
+     </p>
+    </div>
+    <div>
+     <span>
+      ☺
+     </span>
+     <h3>
+      Local &amp; Personal
+     </h3>
+     <p>
+      Fresh sweets made for our local community.
+     </p>
+    </div>
+   </div>
+  </section>
+  <footer>
+   <img class="flogo" src="assets/logo.png"/>
+   <p class="script">
+    Life is sweeter when we all get a piece of the action. ♥
+   </p>
+   <p>
+    ©
+    <span id="year">
+    </span>
+    A Piece of the Action Sweets • Local orders only
+   </p>
+  </footer>
+  <div id="toast">
+  </div>
+  <script src="script.js">
+  </script>
+ </body>
+</html>
